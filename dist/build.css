@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #FEE445; }
+
+.container {
+  width: 950px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%); }
+
+.filter {
+  width: 100%;
+  height: 100%;
+  font-family: lato;
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+
+.card {
+  width: 200px;
+  height: 300px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: inline-block; }
+
+.up {
+  background-color: #DFDFDF;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50%; }
+  .up img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .up p {
+    background-color: #D0CCC9;
+    color: #555555;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px; }
+
+.down {
+  background-color: white;
+  width: 100%;
+  height: 50%; }
+  .down h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: lato;
+    margin-left: 15px;
+    padding-top: 15px; }
+  .down .types-pokemon {
+    padding-left: 15px; }
+  .down .type-pokemon {
+    margin-top: 10px;
+    border: 2px solid #F0EFED;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: oswald; }
+  .down .type-pokemon .hidden {
+    display: none; }
+
+.evoluciona {
+  margin-top: 10px;
+  border-left: 4px solid #644637;
+  padding-left: 5px;
+  font-family: lato;
+  margin-left: 15px; }
+  .evoluciona p {
+    color: #644637;
+    font-weight: 600;
+    font-size: 13px; }
+  .evoluciona .before-pokemon {
+    font-size: 18px;
+    margin-top: 4px; }
+
+.hidden {
+  display: none; }
+
+
+/*# sourceMappingURL=build.css.map*/
